@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+:root{
+    --cor-pri: #000000;
+    --cor-sec: #f6f6f6;
+    --cor-ter: #22D4FD;
+}
 *{
     margin: 0;
     padding: 0;
@@ -9,11 +15,11 @@
 body{
     /* height: 100vh; */
     box-sizing: border-box;
-    background-color: black;
-    color: white;
+    background-color: var(--cor-pri);
+    color: var(--cor-sec);
 }
 .titulo-destaque{
-    color: #22D4FD; 
+    color: var(--cor-ter); 
 }
 .cabecalho{
     padding: 2% 0 0 10%;
@@ -22,7 +28,7 @@ body{
     font-family: 'Montserrat', sans-serif;
     font-size: 24px;
     font-weight: 600;
-    color :#22D4FD;
+    color : var(--cor-ter);
     text-decoration: none;
 }
 .cabecalho__menu{
@@ -62,18 +68,18 @@ body{
     justify-content: center;
     gap: 16px;
     width: 280px;
-    border: 2px solid #22D4FD;
+    border: 2px solid var(--cor-ter);
     text-align: center;
     border-radius: 8px;
     font-size: 24px;
     font-weight: 600;
     padding: 21.5px 0;
-    color: #f6f6f6;
+    color: var(--cor-sec);
     font-family: 'Montserrat', sans-serif;
     text-decoration: none;
 }
 .apres__links__but:hover{
-    background-color: #272727;
+    background-color: var(--cor-pri);
 }
 .apres__links__tit{
     font-family: 'Krona One', sans-serif;
@@ -82,8 +88,8 @@ body{
 }
 .rodape{
     padding: 24px;
-    color: black;
-    background-color: #22D4FD;
+    color: var(--cor-pri);
+    background-color: var(--cor-ter);
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-size: 24px;
