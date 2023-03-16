@@ -6,6 +6,7 @@
     --cor-pri: #000000;
     --cor-sec: #f6f6f6;
     --cor-ter: #22D4FD;
+    --cor-quar: #272727; 
 }
 *{
     margin: 0;
@@ -79,7 +80,7 @@ body{
     text-decoration: none;
 }
 .apres__links__but:hover{
-    background-color: var(--cor-pri);
+    background-color: var(--cor-quar);
 }
 .apres__links__tit{
     font-family: 'Krona One', sans-serif;
