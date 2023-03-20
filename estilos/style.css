@@ -25,7 +25,8 @@ body{
     color: var(--cor-ter); 
 }
 .cabecalho{
-    padding: 2% 0 0 10%;
+    padding: 2% 0% 0% 10%;
+
 }
 .cabecalho__menu__link{
     font-family: var(--fonte-sec);
@@ -103,7 +104,17 @@ body{
 }
 
 @media(max-width: 1200px){
+    .cabecalho{
+        padding: 10%;
+    }
+    .cabecalho__menu{
+        justify-content: center;
+    }
     .apres{
         flex-direction: column-reverse;
+        padding: 5%;
+    }
+    .apres__cont{
+        width: auto;
     }
 }
